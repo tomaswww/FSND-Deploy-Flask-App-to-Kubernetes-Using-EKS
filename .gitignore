@@ -16,6 +16,8 @@ _mailinglist
 .idea/
 docs/_build/
 __pycache__
+.mypy_cache
+deployment.code-workspace
 
 # Coverage reports
 htmlcov/
