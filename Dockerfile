@@ -9,5 +9,6 @@ RUN pip install pyjwt
 RUN pip install gunicorn
 RUN pip install pytest
 
+EXPOSE 8080
 
 ENTRYPOINT ["gunicorn", "-b", ":8080", "main:APP"]
